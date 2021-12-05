@@ -1,0 +1,53 @@
+p
+{
+ color:blue;
+}
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'humblescript';
+    src: url('TheHumble.otf') format('opentype'),
+		 url('TheHumble.ttf') format('truetype');
+}
+@font-face {
+    font-family: '3Dumb';
+    src: url('3Dumb.woff') format('woff');
+}
+@font-face {
+    font-family: '2Dumb';
+    src: url('2Dumb.woff') format('woff');
+}
+p /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: '2Dumb', Arial, serif;
+    
+}
+h1 { 
+    font-family: '3Dumb';
+    text-align: center;
+    font-size: 5em;
+    }
+h1:hover
+{
+    border : 3px red solid;
+
+}
+.imageflottante:hover
+     {
+        border:  3px dashed blue;
+     }
+h2 { font-family: '2Dumb', 'humblescript'; }
+.imageflottante
+{
+    float: left;
+}
+p
+{
+    text-align: justify;
+}
+
+body
+{
+    background: url("OursPolaire.png") fixed no-repeat top left ;
+    background-color: rgb(224 ,205 ,169);
+
+
+}

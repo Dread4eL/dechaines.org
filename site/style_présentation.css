@@ -1,0 +1,168 @@
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'humblescript';
+    src: url('TheHumble.otf') format('opentype'),
+         url('TheHumble.ttf') format('truetype');
+}
+@font-face {
+    font-family: '3Dumb';
+    src: url('3Dumb.woff') format('woff');
+}
+@font-face {
+    font-family: '2Dumb';
+    src: url('2Dumb.woff') format('woff');
+}
+@font-face {
+    font-family: 'Acme';
+    src: url('Acme_regular.woff') format('woff');
+}
+body
+{
+    
+    background: linear-gradient(to bottom, rgb(224 ,205 ,169), #97D3D2);
+
+
+}
+h1
+{
+
+    font-size: 6em;
+    font-family: 'Acme';
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 7px 7px #330000;
+    padding: 100px 45px 100px 45px;
+    background: url("GriffeTitre.png") no-repeat;
+    background-size: 380px 380px;
+    background-position: center;
+}
+nav
+{
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+    background:rgba(255,255,255,0.9);
+
+    
+}
+nav ul
+{
+    padding-left: 22%;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    list-style-type: none;
+    margin-left: 40px;
+    margin-left: 40px;
+
+}
+
+nav ul li
+{
+    text-align: center;
+    font-family: 'Acme';
+    font-size: 25px;
+    margin-right: 5px;
+    padding: 15px;
+
+}
+
+nav ul li:hover
+{
+    border-radius: 5px;
+    background: #97D3D2;
+    padding: 15px;
+}
+
+nav a 
+{
+    color: rgb(0,0,0,0.8);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+em 
+{
+    font-family: 'Acme';
+    font-weight: 900;
+    color: blue;
+}
+
+#Bureau
+{
+    font-family: 'Acme';
+    font-weight: 900;
+    color: red;
+}
+
+
+.Iconesbas
+{
+    text-align: center;
+}
+.Texte
+{
+    font-family: 'Acme';
+    border-radius: 20px;
+    margin-top:  30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity 0.4;
+    font-size: 30px;
+    text-align: justify;
+    border: white;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.75);
+}
+.logo
+{
+    position:  fixed;
+    top:  10px;
+    left:  20px;
+    width: 15%;
+    height: 30%;
+}
+.Personne
+{
+    
+    border: #000000 solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.prenom_L
+{   
+    margin-right: 70%;
+    padding: 3px;
+    background-color: #97D3D2;
+    border: #97D3D2 solid ;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Acme';
+    font-size: 35px;
+
+}
+.prenom_R
+{   
+    border-left: 15px;
+    margin-left: 70%;
+    padding: 3px;
+    padding-right: 10px;
+    background-color: #97D3D2;
+    border: #97D3D2 solid ;
+    border-radius: 5px;
+    text-align: right;
+    font-family: 'Acme';
+    font-size: 35px;
+}
+.Surnom
+{
+    font-family: 'Acme';
+    font-size: 60px;
+    text-shadow: 4px 4px #B35900;
+    margin:  0px;
+}
